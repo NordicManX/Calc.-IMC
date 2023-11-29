@@ -32,18 +32,20 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Calculadora de IMC</h1>
+      <h1>CALCULADORA DE IMC</h1>
       
-      <div>
-        <label>Altura (cm): </label>
+      <div className='container1'>
+        <label><b>Altura (cm):</b>
+        <i class="bi bi-person-arms-up"></i>
+        </label>
         <input
           type="number"
           value={altura}
           onChange={(e) => setAltura(e.target.value)}
         />
       </div>
-      <div>
-        <label>Peso (kg): </label>
+      <div className='container2'>
+        <label><b>Peso (kg):</b> </label>
         <input
           type="number"
           value={peso}
