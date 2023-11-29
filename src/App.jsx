@@ -36,7 +36,6 @@ function App() {
       
       <div className='container1'>
         <label><b>Altura (cm):</b>
-        <i class="bi bi-person-arms-up"></i>
         </label>
         <input
           type="number"
